@@ -28,6 +28,7 @@ function (c::Cleaner)()
                         break
                     end 
                 end
+                end
                 if kill == true 
                 rm(name)
                 end
@@ -36,5 +37,5 @@ function (c::Cleaner)()
         
     end
 end
-
+export Cleaner
 end
